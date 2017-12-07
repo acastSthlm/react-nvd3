@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import d3 from 'd3';
 import nv from 'nvd3';
 import {
@@ -25,8 +26,8 @@ const READY = 'ready';
 
 export default class NVD3Chart extends React.Component {
   static propTypes: {
-    type: React.PropTypes.string.isRequired,
-    configure: React.PropTypes.func
+    type: PropTypes.string.isRequired,
+    configure: PropTypes.func
   };
 
   constructor() {
