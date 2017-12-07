@@ -20,6 +20,7 @@ module.exports = {
   },
   externals: [
     {react: {root: 'React', amd: 'react', commonjs: 'react', commonjs2: 'react'}},
+    {'prop-types': {root: 'PropTypes', amd: 'prop-types', commonjs: 'prop-types', commonjs2: 'prop-types'}},
     {d3: 'd3'},
     {nvd3: {root: 'nv', amd: 'nvd3', commonjs: 'nvd3', commonjs2: 'nvd3'}}
   ]
